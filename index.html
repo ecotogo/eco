@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eco Togo Connect — Le carrefour de l'économie verte au Togo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="logo_ETC.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap headbar">
+    <a href="#home" class="brand" id="brandLink"><span class="mark"><img src="logo_ETC.png" alt="Logo Eco Togo Connect"></span><span><span class="brand-name">ECO TOGO<br>CONNECT</span></span></a>
+    <nav class="mainnav" id="mainNav"></nav>
+    <div class="head-actions">
+      <button class="icon-round" id="searchIconBtn" title="Rechercher"><span></span></button>
+      <button class="icon-round" id="bellIconBtn" title="Notifications"><span></span><span class="dotalert"></span></button>
+      <button class="btn btn-ghost btn-sm" id="loginBtn">Se connecter</button>
+      <button class="btn btn-primary btn-sm" id="signupBtn">S'inscrire</button>
+      <button class="burger" id="burgerBtn" aria-label="Menu"></button>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <div class="newsletter-band">
+    <div class="wrap newsletter-inner">
+      <div>
+        <h3>Restez informé de l'économie verte togolaise</h3>
+        <p>Actualités, nouveaux produits et événements — directement dans votre boîte mail.</p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" id="newsletterEmail" placeholder="Votre adresse email" required>
+        <button class="btn btn-primary btn-sm" type="submit">S'abonner</button>
+      </form>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand" id="footBrand"><span class="mark"><img src="logo_ETC.png" alt="Logo Eco Togo Connect"></span>Eco Togo Connect</div>
+        <p>Informer, connecter et valoriser les acteurs de l'économie verte au Togo — une seule plateforme pour tout un écosystème.</p>
+        <div class="social-row" id="footSocial">
+          <a href="https://www.facebook.com/profile.php?id=61594697944945" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook" data-icon="facebook"></a>
+          <a href="https://www.linkedin.com/company/eco-togo-connect/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn" data-icon="linkedin"></a>
+          <a href="https://wa.me/22890153106" target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp" data-icon="whatsapp"></a>
+        </div>
+      </div>
+      <div>
+        <h5>Plateforme</h5>
+        <ul>
+          <li><a href="#annuaire">Annuaire des acteurs</a></li>
+          <li><a href="#marketplace">Marketplace</a></li>
+          <li><a href="#evenements">Événements verts</a></li>
+          <li><a href="#actualites">Actualités vertes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Le projet</h5>
+        <ul>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact">Devenir partenaire</a></li>
+          <li><a href="#admin">Espace administrateur</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>+228 90 15 31 06</li>
+          <li><a href="mailto:ecotogoconnect@yahoo.com">ecotogoconnect@yahoo.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Eco Togo Connect </span>
+      <span>Informer · Connecter · Valoriser </span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<div class="modal-bg" id="modalBg"><div class="modal-card" id="modalCard"></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
